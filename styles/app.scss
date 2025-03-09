@@ -11,8 +11,11 @@
 // YOUR CODE
 // Starting writing your stuff below here
 body {
+  max-width: 630px;
+  margin: 30px auto;
+  line-height: 1.4;
   @media (max-width: 767px) {
-    padding: 0 15px !important;
+    padding: 0 20px !important;
   }
 }
 
