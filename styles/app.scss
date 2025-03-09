@@ -10,12 +10,9 @@
 
 // YOUR CODE
 // Starting writing your stuff below here
-.container {
-  max-width: 630px;
-  margin: 30px auto;
-  line-height: 1.4;
+body {
   @media (max-width: 767px) {
-    padding: 0 15px;
+    padding: 0 15px !important;
   }
 }
 
@@ -23,6 +20,7 @@ h1 {
   font-family: fonts.$font-family-headline;
   font-weight: fonts.$font-weight-headline;
   font-size: 26px;
+  padding-inline: max(1rem, calc((100% - 90ch) / 2));
 }
 
 p {
